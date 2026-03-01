@@ -54,8 +54,6 @@ The script connects to all servers concurrently and appends your public key to `
 ]
 ```
 
-This file is listed in `.gitignore` and will not be committed to the repository.
-
 ## Notes
 
 - The script is idempotent. Running it multiple times will not duplicate the key.
